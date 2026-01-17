@@ -1,0 +1,26 @@
+{
+  "topics": [
+    {
+      "id": "cpi_oauth_sac",
+      "title": "CPI OAuth to SAC",
+      "entries": [
+        {
+          "timestamp": 1737114678401,
+          "author": "System",
+          "html": "<p>Sample entry about OAuth2 configuration for SAC</p>"
+        }
+      ]
+    },
+    {
+      "id": "cloud_foundry_tips",
+      "title": "Cloud Foundry Tips",
+      "entries": [
+        {
+          "timestamp": 1737114678402,
+          "author": "System",
+          "html": "<p>Use CF CLI v8 for CF landscape.</p>"
+        }
+      ]
+    }
+  ]
+}
