@@ -1,12 +1,58 @@
 [
   {
     "id": "1",
-    "title": "Introduction to SAP Cloud Integration",
-    "content": "SAP Cloud Integration (CPI) allows seamless integration between cloud and on-premise systems..."
+    "title": "Introduction to SAP Cloud Integration (CPI)",
+    "tickets": [
+      {
+        "id": "1-1",
+        "content": "SAP Cloud Integration (CPI) is a cloud-based integration service that connects applications and systems in real time."
+      },
+      {
+        "id": "1-2",
+        "content": "It allows seamless integration between SAP and non-SAP systems, both on-premise and in the cloud."
+      }
+    ]
   },
   {
     "id": "2",
-    "title": "Using iFlows",
-    "content": "iFlows define the integration logic and mapping between sender and receiver systems..."
+    "title": "Understanding iFlows",
+    "tickets": [
+      {
+        "id": "2-1",
+        "content": "Integration Flows (iFlows) define the logic and mapping between sender and receiver systems."
+      },
+      {
+        "id": "2-2",
+        "content": "They handle message transformations, routing, and error handling for integration scenarios."
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Using Message Mapping",
+    "tickets": [
+      {
+        "id": "3-1",
+        "content": "Message Mapping in SAP CPI allows you to transform data from a source format to a target format."
+      },
+      {
+        "id": "3-2",
+        "content": "Graphical mapping tools or scripting can be used for complex transformations."
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Deploying Integration Flows",
+    "tickets": [
+      {
+        "id": "4-1",
+        "content": "After designing your iFlow, you can deploy it to your CPI tenant."
+      },
+      {
+        "id": "4-2",
+        "content": "Deployment ensures that your integration logic is active and can process real messages."
+      }
+    ]
   }
 ]

@@ -14,6 +14,18 @@ button {
   transition: transform 0.2s;
 }
 
+.nav-left .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-left .nav-link:hover {
+  text-decoration: underline;
+}
+
+
 button:hover {
   transform: scale(1.05);
 }
@@ -169,4 +181,35 @@ body.boy-mode {
 .note p {
   margin: 0;
   white-space: pre-wrap; /* preserve line breaks */
+}
+
+/* Topic / ticket styling */
+.topic {
+  width: 90%;
+  max-width: 800px;
+  background: white;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+.topic h3 {
+  margin: 0 0 0.5rem 0;
+  cursor: pointer;
+}
+
+.tickets {
+  margin-top: 0.5rem;
+  padding-left: 1rem;
+  display: none; /* hidden by default */
+}
+
+.ticket {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.ticket:last-child {
+  border-bottom: none;
 }
