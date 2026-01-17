@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Last Braincell</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css.css">
 </head>
-<body>
+<body class="default-mode">
 
-  <header>
-    <h1>The Last Braincell 🧠</h1>
-    <p class="slogan">“We, the unwilling, led by the unknowing...”</p>
-  </header>
-
-  <div class="menu">
-    <button onclick="showAdd()">Add New</button>
-    <button onclick="showBrowse()">Browse</button>
-  </div>
-
-  <section id="addSection" class="hidden">
-    <h2>Add New Entry</h2>
-    <input type="text" id="topicSearch" placeholder="Search or Create Topic..." oninput="searchTopic()">
-    <div id="searchResults"></div>
-    <div id="editorSection" class="hidden">
-      <h3 id="editorTitle"></h3>
-      <div id="toolbar">
-        <button onclick="cmd('bold')">B</button>
-        <button onclick="cmd('italic')">I</button>
-        <button onclick="cmd('underline')">U</button>
-      </div>
-      <div id="editor" contenteditable="true"></div>
-      <button onclick="addEntry()">Add Entry</button>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left"> <a href="index.html" class="nav-link">🧠 The Last Braincell  </a></div>
+    <div class="nav-right">
+      <span id="girlMode" class="heart pink">💖</span>
+      <span id="boyMode" class="heart blue">💙</span>
     </div>
-  </section>
+  </nav>
 
-  <section id="browseSection" class="hidden">
-    <h2>Browse Topics</h2>
-    <div id="topicsContainer"></div>
-  </section>
+  <!-- Main content -->
+  <main class="landing">
+    <h1 class="slogan">“We, the unwilling, led by the unknowing, are doing the impossible for the ungrateful. We have done so much, for so long, with so little, we are now qualified to do anything with nothing.”</h1>
+    <div class="buttons">
+      <button id="enrichBtn" class="primary-btn">Enrich</button>
+      <button id="browseBtn" class="primary-btn">Browse</button>
+    </div>
+  </main>
 
-<script src="app.js"></script>
+  <script src="java.js"></script>
 </body>
 </html>
